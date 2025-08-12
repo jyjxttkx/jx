@@ -204,7 +204,7 @@ _CONFIGS = {
 }
 
 -- UI库
-loadstring(game:HttpGet("https://raw.githubusercontent.com/rbx520/Roblox/refs/heads/main/%E6%94%B9%E8%BF%9B"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/rbx520/Roblox/refs/heads/main/%E6%94%B9%E8%BF%9B"))()
 		--<< 游戏功能部分 >>
 		
 		--↓ 以下请勿修改
